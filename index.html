@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Явь Щукинская — ваше место проявления</title>
+  <meta name="description" content="Кластер арт-деревень «Щукинская Явь». Ретрит-туры, афиша событий, арт-резиденция в Псковской области.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&family=Roboto+Condensed:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/bergamasco" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <nav class="header__nav header__nav--left" aria-label="Основная навигация слева">
+        <a href="#about">о нас</a>
+        <a href="#tours">Туры</a>
+        <a href="#afisha">Афиша</a>
+        <a href="#stay">Проживание</a>
+      </nav>
+
+      <a class="header__logo" href="#hero" aria-label="Явь — на главную">
+        <img src="images/logo.svg" width="61" height="52" alt="Явь">
+      </a>
+
+      <nav class="header__nav header__nav--right" aria-label="Основная навигация справа">
+        <a href="#events">ивенты</a>
+        <a href="#products">Продукция</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#map">Карта</a>
+      </nav>
+
+      <button class="header__burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__media" aria-hidden="true">
+        <img src="images/hero-bg.jpg" alt="">
+      </div>
+      <div class="hero__content">
+        <div class="hero__particles" data-hero-particles>
+          <canvas class="hero__canvas" data-hero-canvas aria-hidden="true"></canvas>
+          <div class="hero__text hero__text--a11y" data-hero-source>
+            <h1 class="hero__title">
+              <span>Явь</span>
+              <span>Щукинская</span>
+            </h1>
+            <p class="hero__subtitle">ваше место проявления</p>
+            <p class="hero__label">кластер арт-деревень</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Audience -->
+    <section class="audience" id="about">
+      <div class="container audience__grid">
+        <article class="audience__card">
+          <img class="audience__star js-star" src="images/star-creators.png" width="199" height="199" alt="">
+          <div class="audience__text">
+            <h2>творцам</h2>
+            <p>всех направлений<br>мы даём пространство<br>для самовыражения</p>
+          </div>
+        </article>
+        <article class="audience__card">
+          <img class="audience__star js-star" src="images/star-visitors.png" width="199" height="199" alt="">
+          <div class="audience__text">
+            <h2>посетителям</h2>
+            <p>мы помогаем окунуться в себя, прожить новые эмоции<br>и переродиться</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Tours -->
+    <section class="tours" id="tours">
+      <div class="tours__bg" aria-hidden="true">
+        <img src="images/bg-gradient-red.png" alt="">
+      </div>
+      <img class="tours__decor tours__decor--left js-star" src="images/star-decor-1.png" alt="" aria-hidden="true">
+      <img class="tours__decor tours__decor--right js-star" src="images/star-decor-2.png" alt="" aria-hidden="true">
+
+      <div class="container tours__inner">
+        <div class="tours__header">
+          <h2 class="section-title section-title--light">Ретрит-туры</h2>
+          <p class="tours__lead">Явь — это мир реальности, чистый от домыслов и настоящий и видимый. Ретрит-программы помогут вернуться в контакт с явью, принять её и с мягкой уверенностью продолжить движение по своему пути.</p>
+        </div>
+
+        <div class="tours__cards">
+          <article class="tour-card">
+            <div class="tour-card__media">
+              <img src="images/tour-2days.jpg" alt="Ретрит на 2 дня">
+              <span class="tour-card__badge">2 дня</span>
+            </div>
+            <div class="tour-card__body">
+              <h3>перевести дыхание</h3>
+              <p>Полные 2 дня, чтобы выдохнуть и зарядить внутреннюю батарейку</p>
+            </div>
+          </article>
+
+          <article class="tour-card">
+            <div class="tour-card__media">
+              <img src="images/tour-5days.jpg" alt="Ретрит на 5 дней">
+              <span class="tour-card__badge">5 дней</span>
+            </div>
+            <div class="tour-card__body">
+              <h3>обновиться</h3>
+              <p>За 5 дней вы вернёте контакт с собой, успокоите разум и наполнитесь энергией</p>
+            </div>
+          </article>
+
+          <article class="tour-card">
+            <div class="tour-card__media">
+              <img src="images/tour-9days.jpg" alt="Ретрит на 9 дней">
+              <span class="tour-card__badge">9 дней</span>
+            </div>
+            <div class="tour-card__body">
+              <h3>переродиться</h3>
+              <p>Через 9 дней ретрит-программы вы полностью очиститесь от тревог, обретёте силы и ясность, сможете переосознать свой путь</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="tours__cta">
+          <p>Туры пока недоступны. Оставьте свою почту — мы пришлём уведомление за 3 дня до старта продаж.</p>
+          <a class="btn btn--outline" href="#subscribe">Узнать первым</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Art / Manifest -->
+    <section class="art" id="events">
+      <div class="art__bg" aria-hidden="true">
+        <img src="images/bg-gradient-dark.png" alt="">
+      </div>
+      <img class="art__decor js-star" src="images/star-decor-3.png" alt="" aria-hidden="true">
+
+      <div class="container art__intro">
+        <h2 class="section-title section-title--light">Проявляйтесь<br>в щукино</h2>
+        <div class="art__intro-side">
+          <p>Что бы вы ни создавали, в кластере арт-деревень «Щукинская Явь» вы сможете проявиться через своё творчество.</p>
+          <a class="btn btn--glass" href="#contacts">подать заявку</a>
+        </div>
+      </div>
+
+      <div class="container art__blocks">
+        <article class="art-card art-card--wide">
+          <div class="art-card__media">
+            <img src="images/art-drawing.jpg" alt="Рисунок на фасаде">
+          </div>
+          <div class="art-card__body">
+            <h3>рисунок</h3>
+            <p>Оформление фасадов и участие в экспозициях</p>
+          </div>
+        </article>
+
+        <div class="art__row">
+          <article class="art-card">
+            <div class="art-card__media">
+              <img src="images/art-installation.jpg" alt="Инсталляция">
+            </div>
+            <div class="art-card__body">
+              <h3>инсталляция</h3>
+              <p>Доступные территории для вашего арт-объекта</p>
+            </div>
+          </article>
+
+          <article class="art-card">
+            <div class="art-card__media">
+              <img src="images/art-modern.jpg" alt="Современное искусство">
+            </div>
+            <div class="art-card__body">
+              <h3>современное искусство</h3>
+              <p>Доступные площадки и даты проведения ваших арт-событий</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Afisha -->
+    <section class="afisha" id="afisha">
+      <div class="afisha__bg" aria-hidden="true">
+        <img src="images/bg-gradient-red.png" alt="">
+      </div>
+      <img class="afisha__decor js-star" src="images/star-decor-4.png" alt="" aria-hidden="true">
+
+      <div class="container">
+        <h2 class="section-title section-title--light">афиша событий</h2>
+
+        <div class="afisha__event">
+          <div class="afisha__poster">
+            <img src="images/afisha-event.jpg" alt="Фестиваль Щедрая Крылатая">
+          </div>
+          <div class="afisha__info">
+            <p class="afisha__date">6–8 января, 2026</p>
+            <h3>Иммерсивный рождественский фестиваль<br>«ЩУКА КРЫЛАТАЯ»</h3>
+            <p class="afisha__desc">на&nbsp;три&nbsp;дня деревня Щукино в&nbsp;Псковской области становится местом действия сказочных сюжетов. Здесь вы&nbsp;встретите персонажей русского фольклора, вместе с&nbsp;которыми поучаствуете в&nbsp;обрядах, пиршествах, зимних гуляниях и&nbsp;даже отправитесь встречать закат на&nbsp;воздушном шаре!</p>
+            <div class="afisha__actions">
+              <a class="btn btn--outline" href="#">Скачать программу</a>
+              <a class="btn btn--accent" href="#">Купить билет</a>
+            </div>
+          </div>
+          <button class="carousel-btn afisha__next" type="button" aria-label="Следующее событие">
+            <img src="images/arrow-right.svg" width="80" height="80" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <h2 class="section-title">галлерея</h2>
+      </div>
+
+      <div class="gallery__viewport">
+        <div class="gallery__track" data-gallery-track>
+          <figure class="gallery__slide">
+            <img src="images/gallery-1.jpg" alt="Фестиваль Деревня">
+            <figcaption>
+              <span>Фестиваль «Деревня»</span>
+              <span>июнь 2024</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery__slide">
+            <img src="images/gallery-2.jpg" alt="Фестиваль Деревня">
+            <figcaption>
+              <span>Фестиваль «Деревня»</span>
+              <span>июнь 2024</span>
+            </figcaption>
+          </figure>
+          <figure class="gallery__slide">
+            <img src="images/gallery-3.jpg" alt="Фестиваль Деревня">
+            <figcaption>
+              <span>Фестиваль «Деревня»</span>
+              <span>июнь 2024</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <button class="carousel-btn carousel-btn--flip gallery__prev" type="button" data-gallery-prev aria-label="Предыдущее фото">
+          <img src="images/arrow-right.svg" width="80" height="80" alt="">
+        </button>
+        <button class="carousel-btn gallery__next" type="button" data-gallery-next aria-label="Следующее фото">
+          <img src="images/arrow-right.svg" width="80" height="80" alt="">
+        </button>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section class="map" id="map">
+      <div class="container map__inner">
+        <div class="map__text">
+          <h2 class="section-title">схема<br>проезда</h2>
+          <p>Туры пока недоступны. Если вы хотите первыми узнать об открытии регистраций, оставьте свою почту — мы пришлём уведомление за 3 дня до старта продаж.</p>
+          <a class="btn btn--outline" href="#">скачать маршрут</a>
+        </div>
+        <div class="map__image" aria-label="Интерактивная карта проезда в деревню Щукино">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae4f675a919028a0c07fd0dc777bd614c953aa35fae0740ec7b20a96d51f2a4ab&amp;width=868&amp;height=558&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+      </div>
+    </section>
+
+    <!-- Andrey -->
+    <section class="andrey" id="contacts">
+      <div class="andrey__bg" aria-hidden="true"></div>
+      <img class="andrey__star js-star" src="images/Star.svg" alt="" aria-hidden="true">
+
+      <div class="container andrey__inner">
+        <div class="andrey__meta">
+          <div>
+            <h2>АНДРЕЙ ЛЕВШИН</h2>
+            <p class="andrey__role">инициатор возрождения<br>родной территории визионер</p>
+          </div>
+          <ul class="andrey__links">
+            <li><a href="https://t.me/" target="_blank" rel="noopener">telegram</a></li>
+            <li><a href="https://vk.com/" target="_blank" rel="noopener">vk</a></li>
+          </ul>
+        </div>
+
+        <div class="andrey__content">
+          <p>Продюсер событий и активист родом из деревни Щукино. В 2024 году начал возрождение родной деревни и ближайших территорий в Псковской области. Собрал единомышленников и запустил «Щукинскую Явь» — сегодня это главный проект его команды.</p>
+          <p>О том, как идёт развитие деревни, Андрей рассказывает в своих соцсетях</p>
+        </div>
+
+        <div class="andrey__photo">
+          <img src="images/andrey.jpg" alt="Андрей Левшин">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" id="subscribe">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img class="footer__logo" src="images/footer_logo.svg" width="124" height="133" alt="Явь Щукинская">
+        <p>остались вопросы?<br><a href="mailto:shuka.yav@yandex.ru">shuka.yav@yandex.ru</a></p>
+      </div>
+
+      <div class="footer__main">
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h3>гостям</h3>
+            <ul>
+              <li><a href="#tours">туры</a></li>
+              <li><a href="#afisha">афиша событий</a></li>
+              <li><a href="#stay">проживание</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3>творцам</h3>
+            <ul>
+              <li><a href="#events">арт-резиденция</a></li>
+              <li><a href="#contacts">подача заявок</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h3>партнёрам</h3>
+            <ul>
+              <li><a href="#">участие в фестивалях</a></li>
+              <li><a href="#">корпоративные события</a></li>
+              <li><a href="#">для СМИ</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="footer__legal">
+            <p>деревня Щукино, Пустошкинский район, Псковская область</p>
+            <div class="footer__policies">
+              <a href="#">пользовательское соглашение</a>
+              <a href="#">политика конфиденциальности</a>
+            </div>
+          </div>
+          <div class="footer__social">
+            <a href="https://vk.com/" target="_blank" rel="noopener" aria-label="ВКонтакте">
+              <img src="images/vk_icon.svg" width="60" height="60" alt="">
+            </a>
+            <a href="https://t.me/" target="_blank" rel="noopener" aria-label="Telegram">
+              <img src="images/telegram_icon.svg" width="60" height="60" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
